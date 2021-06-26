@@ -1,8 +1,6 @@
 <h1 align="center" style="font-size: 52px;" ><img height=30 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"> DevFolio - Portfolio for Developers</h1>
 
-Designed live portfolio using Flutter 2.0. Available for **iOS**, **Android** and **Web**. 
-
-<img src="https://user-images.githubusercontent.com/43790152/112185787-5ce1a300-8c22-11eb-80af-271f674f8f24.png">
+Portfolio using Flutter 2.0. Available for **iOS**, **Android** and **Web**. 
 
 <div align="center">
 
@@ -33,11 +31,13 @@ flutter run -d chrome
 ## 🔑 License
 - This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
-## 🧑 Author
+## 🧑🏾‍💻 Author
 
 #### Edwin Sierra
 [![LinkedIn Link](https://img.shields.io/badge/Connect-EdwinSierra-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
 )](https://www.linkedin.com/in/edwinsierra/)
+
+**Forked from mhmzdev/DevFolio**
 
 You can also follow my GitHub Profile to stay updated about my latest projects:
 
