@@ -11,12 +11,12 @@ class AboutDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
+    double height = MediaQuery.of(context).size.height * 0.6;
     double width = MediaQuery.of(context).size.width;
 
     return Container(
       padding: EdgeInsets.symmetric(
-          horizontal: width * 0.02, vertical: height * 0.02),
+          horizontal: width * 0.1, vertical: height * 0.02),
       height: height,
       color: Colors.grey[900],
       child: Column(
@@ -48,25 +48,6 @@ class AboutDesktop extends StatelessWidget {
               width >= 1185 ? Expanded(child: ToolsTech()) : ToolsTech()
             ],
           ),
-          SizedBox(
-            height: height * 0.055,
-          ),
-          Row(
-            children: [
-              for (int i = 0; i < kCommunityLogo.length; i++)
-                CommunityIconBtn(
-                  icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
-                  height: _communityLogoHeight[i],
-                ),
-              Expanded(
-                child: Container(),
-              ),
-              NavBarLogo(
-                height: height * 0.04,
-              )
-            ],
-          )
         ],
       ),
     );

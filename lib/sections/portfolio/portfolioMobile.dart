@@ -47,24 +47,6 @@ class PortfolioMobileTab extends StatelessWidget {
                 autoPlayAnimationDuration: Duration(milliseconds: 800),
                 enableInfiniteScroll: false),
           ),
-          SizedBox(
-            height: height * 0.03,
-          ),
-          MaterialButton(
-            hoverColor: kPrimaryColor.withAlpha(150),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-                side: BorderSide(color: kPrimaryColor)),
-            onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
-            },
-            child: Text(
-              "See More",
-              style: GoogleFonts.montserrat(
-                fontWeight: FontWeight.w200,
-              ),
-            ),
-          ),
         ],
       ),
     );

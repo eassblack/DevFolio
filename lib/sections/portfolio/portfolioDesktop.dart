@@ -60,24 +60,6 @@ class PortfolioDesktop extends StatelessWidget {
               itemCount: 4,
             ),
           ),
-          SizedBox(
-            height: height * 0.02,
-          ),
-          MaterialButton(
-            hoverColor: kPrimaryColor.withAlpha(150),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-                side: BorderSide(color: kPrimaryColor)),
-            onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
-            },
-            child: Text(
-              "See More",
-              style: GoogleFonts.montserrat(
-                fontWeight: FontWeight.w200,
-              ),
-            ),
-          ),
         ],
       ),
     );

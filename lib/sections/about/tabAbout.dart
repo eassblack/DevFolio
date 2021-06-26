@@ -51,25 +51,6 @@ class AboutTab extends StatelessWidget {
               )
             ],
           ),
-          SizedBox(
-            height: height * 0.05,
-          ),
-          Row(
-            children: [
-              for (int i = 0; i < kCommunityLogo.length; i++)
-                CommunityIconBtn(
-                  icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
-                  height: _communityLogoHeight[i],
-                ),
-              Expanded(
-                child: Container(),
-              ),
-              NavBarLogo(
-                height: height * 0.04,
-              )
-            ],
-          )
         ],
       ),
     );

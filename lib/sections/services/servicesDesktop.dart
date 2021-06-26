@@ -24,7 +24,7 @@ class ServiceDesktop extends StatelessWidget {
             ),
           ),
           Text(
-            "I may not be perfect, but I'm surely of some help :)\n\n",
+            "I am a software engineer focused on users and business models\n\n",
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           Column(
