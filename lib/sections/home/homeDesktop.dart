@@ -18,8 +18,8 @@ class HomeDesktop extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            top: width < 1200 ? height * 0.15 : height * 0.1,
-            right: width * 0.01,
+            top: width < 1200 ? height * 0.1 : height * 0.06,
+            right: width * 0.05,
             child: Opacity(
               opacity: 0.9,
               child: EntranceFader(
@@ -60,7 +60,7 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
+                  "Edwin",
                   style: GoogleFonts.montserrat(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
@@ -68,7 +68,7 @@ class HomeDesktop extends StatelessWidget {
                       letterSpacing: 4.0),
                 ),
                 Text(
-                  "Hamza",
+                  "Sierra",
                   style: GoogleFonts.montserrat(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
@@ -92,9 +92,9 @@ class HomeDesktop extends StatelessWidget {
                               fontSize: height * 0.03,
                               fontWeight: FontWeight.w200),
                           text: [
+                            " iOS Developer",
                             " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
+                            " Software engineer"
                           ]),
                     ],
                   ),

@@ -47,6 +47,10 @@ class _MainPageState extends State<MainPage> {
     _itemScrollController.scrollTo(index: i, duration: Duration(seconds: 1));
   }
 
+  void _close_drawer_scroll(int i) {
+    _scroll(i);
+    Navigator.pop(context);
+  }
   Widget sectionWidget(int i) {
     if (i == 0) {
       return HomePage();
@@ -127,11 +131,11 @@ class _MainPageState extends State<MainPage> {
             padding: const EdgeInsets.all(8.0),
             child: MaterialButton(
                 hoverColor: kPrimaryColor,
-                onPressed: () => _scroll(index),
+                onPressed: () => _close_drawer_scroll(index),
                 child: ListTile(
                   leading: Icon(
                     icon,
-                    color: kPrimaryColor,
+                    color: Colors.white,
                   ),
                   title: Text(childText),
                 )),
@@ -142,20 +146,6 @@ class _MainPageState extends State<MainPage> {
     return AppBar(
       elevation: 0.0,
       backgroundColor: Colors.transparent,
-      title: MediaQuery.of(context).size.width < 740
-          ? EntranceFader(
-              duration: Duration(seconds: 1),
-              offset: Offset(0, -20),
-              delay: Duration(seconds: 3),
-              child: NavBarLogo())
-          : EntranceFader(
-              offset: Offset(0, -20),
-              duration: Duration(seconds: 1),
-              delay: Duration(seconds: 3),
-              child: NavBarLogo(
-                height: MediaQuery.of(context).size.height * 0.035,
-              ),
-            ),
       actions: [
         for (int i = 0; i < _sectionsName.length; i++)
           _appBarActions(_sectionsName[i], i, _sectionsIcons[i]),
@@ -172,7 +162,7 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
+                    'https://drive.google.com/uc?export=view&id=1WUakaSYqQ4gsCQ_gmZIxRJvDQogxRQNd',
                     "pdf");
               },
               child: Text(
@@ -195,11 +185,6 @@ class _MainPageState extends State<MainPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(
-              child: NavBarLogo(
-                height: 28,
-              ),
-            ),
             for (int i = 0; i < _sectionsName.length; i++)
               _appBarActions(_sectionsName[i], i, _sectionsIcons[i]),
             Padding(
@@ -210,13 +195,14 @@ class _MainPageState extends State<MainPage> {
                     borderRadius: BorderRadius.circular(5.0),
                     side: BorderSide(color: kPrimaryColor)),
                 onPressed: () {
+                  Navigator.pop(context);
                   launchURL(
-                      "https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE");
+                      "https://drive.google.com/uc?export=view&id=1WUakaSYqQ4gsCQ_gmZIxRJvDQogxRQNd");
                 },
                 child: ListTile(
                   leading: Icon(
                     Icons.book,
-                    color: Colors.red,
+                    color: Colors.white,
                   ),
                   title: Text(
                     "Resume",

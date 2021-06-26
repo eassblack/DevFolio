@@ -36,31 +36,9 @@ class AboutMobile extends StatelessWidget {
             fontSize: 13,
           ),
           SizedBox(
-            height: height * 0.03,
-          ),
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              for (int i = 0; i < kCommunityLogo.length; i++)
-                CommunityIconBtn(
-                  icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
-                  height: _communityLogoHeight[i],
-                ),
-            ],
-          ),
-          SizedBox(
             height: height * 0.025,
           ),
           ToolsTech(),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              NavBarLogo(
-                height: height * 0.04,
-              )
-            ],
-          )
         ],
       ),
     );
