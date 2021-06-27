@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Colors
-Color kPrimaryColor = Color(0xff02334d);
+Color kPrimaryColor = Color(0xff003b6f);
 
 // Social Media
 const kSocialIcons = [
@@ -30,11 +30,11 @@ final kTools1 = ["Swift", "ObjectiveC", "Dart"];
 
 // services
 final kServicesIcons = [
-  "assets/services/app.png",
-  "assets/services/app.png",
-  "assets/services/app.png",
-  "assets/services/rapid.png",
-  "assets/services/rapid.png",
+  "assets/services/IOS-03.png",
+  "assets/services/STORE-03.png",
+  "assets/services/PROJECT-03.png",
+  "assets/services/FLUTTER-03.png",
+  "assets/services/PROTO-03.png",
 ];
 
 final kServicesTitles = [
