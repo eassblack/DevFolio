@@ -1,11 +1,11 @@
 {
-    "name": "Edwin",
-    "short_name": "Edwin",
+    "name": "Edwin Porfolio",
+    "short_name": "Edwin Porfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
-    "theme_color": "#02334d",
-    "description": "Live portfolio using flutter 2.0",
+    "theme_color": "#003b6f",
+    "description": "Portfolio using flutter 2.0",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
