@@ -48,12 +48,7 @@ class PortfolioDesktop extends StatelessWidget {
                     projectTitle: kProjectsTitles[index],
                     projectDescription: kProjectsDescriptions[index],
                     projectLink: kProjectsLinks[index],
-                    bottomWidget: index == 1
-                        ? Image.network(
-                            "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
-                            height: height * 0.04,
-                          )
-                        : Container(),
+                    bottomWidget: Container(),
                   ),
                 );
               },

@@ -63,62 +63,38 @@ final kServicesLinks = [
 
 // projects
 final kProjectsBanner = [
-  "assets/projects/medkitB.png",
-  "assets/projects/quranB.png",
-  "assets/projects/hereiamB.png",
-  "assets/projects/covidB.png",
+  "assets/projects/PORTFOLIO-06.jpg",
+  "assets/projects/PORTFOLIO-05.jpg",
+  "assets/projects/PORTFOLIO-04.jpg",
+  "assets/projects/PORTFOLIO-07.jpg",
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
-  "assets/projects/quran.png",
-  "assets/projects/hereiam.png",
-  "assets/projects/covid.png",
-  "assets/projects/messenger.png",
-  "assets/projects/flutter.png",
-  "assets/projects/earbender.png",
-  "assets/projects/java.png",
-  "assets/projects/android.png",
-  "assets/services/open.png",
+  "assets/projects/VERSUS-03.png",
+  "assets/projects/SPORTSOLUTION-03.png",
+  "assets/projects/FALABELLA-03.png",
+  "assets/projects/POC-03.png",
 ];
 
 final kProjectsTitles = [
-  "MedKit",
-  "The Holy Qur'an",
-  "Here I Am",
-  "COVID-19",
-  "Messenger Chat Head UI",
-  "flutter.dev - Flutter Web",
-  "Earbender",
-  "File Transfer Protocol",
-  "My Order",
-  "Hidev",
+  "VersusGoal",
+  "Sport Solutions",
+  "Fallabela - Tags Analytics",
+  "POCWebRTC",
 ];
 
 final kProjectsDescriptions = [
-  "A Phramacy app developed using Flutter powered with Firebase as database. It let's you find medicines for some common diseases to save your time and cost.",
-  "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter The data is fetched using API. Information about API is given at the bottom of README.md",
-  "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
-  "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
-  "Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head.",
-  "fFlutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be issues considering the layout on your screen.",
-  "A concept of Music App developed using Flutter. Having functionality of playing Audio.",
-  "GIt was my End semester project i.e. creating this FTP having a user interface in Java. It simply sends file from Client to Server but not the other way around.",
-  "A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System.",
-  "Its my end semester project for a course Web Technologies. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Szałek and his blog Fidev."
-];
+  "IOS application development (Swift) for existing application on Android. Versusgoal allows you and your team to see the statistics of the tournaments that are played from date to date. Analyze results, scorers and performance of your favorite teams.",
+  "Development of an application for iOS (Swift). App for inventory management and equipment maintenance tickets in Gymnasiums.",
+  "Used Firebase SDK and Swift/Objective-C. Implementation of Firebase Analytics Measurement campaign in CMR and Retail Latin America iOS apps.",
+  "Development of an application for iOS (Swift). Video calling app using WebRTC and OWT technology for Exo Company.",
+  ];
 
 final kProjectsLinks = [
-  "https://github.com/m-hamzashakeel/MedKit-Pharmacy-App-Using-Flutter",
-  "https://github.com/m-hamzashakeel/The_Holy_Quran_App",
-  "https://github.com/m-hamzashakeel/Here-I-Am-Alert-App",
-  "https://github.com/m-hamzashakeel/Covid19-Tracker-App",
-  "https://github.com/m-hamzashakeel/Messenger-Chat-Head-Flutter-UI",
-  "https://github.com/m-hamzashakeel/flutter.dev-Flutter-Web-Clone",
-  "https://github.com/m-hamzashakeel/Earbender_Music_App",
-  "https://github.com/m-hamzashakeel/FTP_GUI_Java",
-  "https://github.com/m-hamzashakeel/My-Order-Resturant-Ordering-System",
-  "https://github.com/m-hamzashakeel/Hidev_Web",
+  "https://apps.apple.com/us/app/versusgoal/id1514871712",
+  "",
+  "https://apps.apple.com/cl/app/falabella/id947145705",
+  "",
 ];
 
 // Contact
